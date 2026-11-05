@@ -1,6 +1,6 @@
-##Here, create the Docker Compose file
+## Here, create the Docker Compose file
 
-##Useful Docker Compose Commands 
+## Useful Docker Compose Commands 
 
 sudo docker compose build 
 
