@@ -12,7 +12,7 @@ RUN python3 -m pip install "pip @ https://files.pythonhosted.org/packages/3f/06/
 RUN pip install --no-cache-dir -r requirements_prod.txt
 # Copy all files in prediction-api local host directory to /usr/src/myapp in Docker container
 COPY . .
-ENV MODEL_NAME=model.keras
+ENV MODEL_NAME=model.pkl
 # Expose the port that our app runs in
 EXPOSE 5000
 # Run our App
